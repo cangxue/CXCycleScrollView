@@ -6,8 +6,8 @@ target 'CXCycleScrollView' do
   use_frameworks!
 
   # Pods for CXCycleScrollView
-
-	pod 'SDWebImage', '~> 4.0'
+  
+  pod 'Kingfisher'
 
   target 'CXCycleScrollViewTests' do
     inherit! :search_paths
